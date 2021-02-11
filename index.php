@@ -25,7 +25,7 @@
         // Message details
         $numbers = array($mobile);
         $sender = urlencode('TXTLCL');
-        $message = rawurlencode($message);
+        $message = rawurlencode('This is your message');
     
         $numbers = implode(',', $numbers);
     
